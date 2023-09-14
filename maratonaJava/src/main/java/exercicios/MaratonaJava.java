@@ -1,4 +1,4 @@
-package com.mycompany.maratonajava;
+package exercicios;
 
 public class MaratonaJava {
     public static void main(String[] args) {
