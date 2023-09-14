@@ -6,7 +6,6 @@ public class Operadores {
        int num2 = 10;
        boolean igual = 10 == 10;
        
-       
         System.out.println(num1+num2);
         System.out.println(num1*num2);
         System.out.println(num1/num2);
