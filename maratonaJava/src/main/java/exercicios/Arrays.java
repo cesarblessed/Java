@@ -14,14 +14,17 @@ public class Arrays {
         nomes[1] = "lucas";
         nomes[2] = "julia";
         
+        // Laço for comum
         for(int i = 0;i < nomes.length;i++){
             System.out.println(nomes[i]);
         }
         
+        // Foreach 
         for(String nome : nomes) {
             System.out.println(nome);
         }
         
+        // Arrays multidimensionais
         int[][] valor = new int[2][2];
         valor[0][0] = 1;
         valor[0][1] = 10;
@@ -35,14 +38,11 @@ public class Arrays {
             }
         }
         
-        
-        
+        // Foreach
         for(int[] arrayBase : valor){
             for(int num : arrayBase){
                 System.out.println(num);
             }
-        }
-        
-    }
-    
+        }    
+    }   
 }
