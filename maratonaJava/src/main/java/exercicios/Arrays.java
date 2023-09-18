@@ -18,6 +18,10 @@ public class Arrays {
             System.out.println(nomes[i]);
         }
         
+        for(String nome : nomes) {
+            System.out.println(nome);
+        }
+        
         
     }
     
