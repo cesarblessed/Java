@@ -14,7 +14,10 @@ public class Arrays {
         nomes[1] = "lucas";
         nomes[2] = "julia";
         
-        System.out.println(nomes[1]);
+        for(int i = 0;i < nomes.length;i++){
+            System.out.println(nomes[i]);
+        }
+        
         
     }
     
