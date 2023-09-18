@@ -8,6 +8,14 @@ public class Arrays {
         idades[2] = 25;
         
         System.out.println(idades[0]);
+        
+        String[] nomes = new String[3];
+        nomes[0] = "jose";
+        nomes[1] = "lucas";
+        nomes[2] = "julia";
+        
+        System.out.println(nomes[1]);
+        
     }
     
 }
