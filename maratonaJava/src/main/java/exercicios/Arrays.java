@@ -35,6 +35,14 @@ public class Arrays {
             }
         }
         
+        
+        
+        for(int[] arrayBase : valor){
+            for(int num : arrayBase){
+                System.out.println(num);
+            }
+        }
+        
     }
     
 }
