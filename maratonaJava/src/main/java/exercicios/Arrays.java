@@ -22,6 +22,18 @@ public class Arrays {
             System.out.println(nome);
         }
         
+        int[][] valor = new int[2][2];
+        valor[0][0] = 1;
+        valor[0][1] = 10;
+        
+        valor[1][0] = 20;
+        valor[1][1] = 30;
+        
+        for(int i = 0;i < valor.length;i++){
+            for(int j = 0;j < valor.length;j++){
+                System.out.println(valor[i][j]);
+            }
+        }
         
     }
     
