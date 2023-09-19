@@ -2,6 +2,7 @@ package myClasses;
 
 public class PessoaTeste {
     public static void main(String[] args) {
+        // Classe pessoa instanciada na classe de teste
         Pessoa pessoa = new Pessoa();
         
         pessoa.nome = "cesar";
@@ -14,6 +15,8 @@ public class PessoaTeste {
         
         System.out.println(pessoa.nome + " tem " + pessoa.idade + " anos e ganha " + pessoa.salario);
         
+        // Carro instanciado e adicionado os valores
+        // Dois carros foram criados da classe Carro
         Carro carro1 = new Carro();
         carro1.nome = "Jetta";
         carro1.modelo = "Volkswagen";
