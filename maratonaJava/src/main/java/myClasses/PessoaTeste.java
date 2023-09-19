@@ -14,11 +14,16 @@ public class PessoaTeste {
         
         System.out.println(pessoa.nome + " tem " + pessoa.idade + " anos e ganha " + pessoa.salario);
         
-        Carro carro = new Carro();
-        carro.nome = "Jetta";
-        carro.modelo = "Volkswagen";
-        carro.ano = 2021;
+        Carro carro1 = new Carro();
+        carro1.nome = "Jetta";
+        carro1.modelo = "Volkswagen";
+        carro1.ano = 2021;
+        System.out.println(carro1.nome);
         
-        System.out.println(carro.nome);
+        Carro carro2 = new Carro();
+        carro2.nome = "Golf";
+        carro2.modelo = "Volkswagen";
+        carro2.ano = 2020;
+        System.out.println(carro2.nome);
     }
 }
