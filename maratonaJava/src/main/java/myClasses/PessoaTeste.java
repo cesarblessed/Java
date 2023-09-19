@@ -19,5 +19,6 @@ public class PessoaTeste {
         carro.modelo = "Volkswagen";
         carro.ano = 2021;
         
+        System.out.println(carro.nome);
     }
 }
