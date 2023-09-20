@@ -5,6 +5,7 @@ public class SomarNumeros {
         Somar somar = new Somar();
         somar.somar();
         somar.multiplicar(2, 3);
+        somar.divisao(15, 3);
     }
     
 }
